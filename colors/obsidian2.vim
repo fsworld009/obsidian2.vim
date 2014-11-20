@@ -1,8 +1,8 @@
 " Vim color file
-" Name: Obsidian
-" Maintainer: Aydar Khabibullin <aydar.kh@gmail.com>
-" Version: 0.5
-" Date: 01/30/2011 12:35:30 AM
+" Name: Obsidian2
+" Maintainer: WorldFS
+" Version: 0.6
+" Date: 11.19.2014
 
 set background=dark
 hi clear
@@ -41,8 +41,8 @@ execute "hi Type guifg="        . s:Colors[9]  . " guibg=" . s:Colors[12]
 execute "hi Underline guifg="   . s:Colors[10] . " guibg=" . s:Colors[12]
 
 " Groups
-execute "hi Cursor guifg="      . s:Colors[8]  . " guibg=" . s:Colors[4]
-execute "hi CursorIM guifg="    . s:Colors[7]  . " guibg=" . s:Colors[4]
+execute "hi Cursor guifg="      . s:Colors[8]  . " guibg=" . s:Colors[1]
+execute "hi CursorIM guifg="    . s:Colors[7]  . " guibg=" . s:Colors[1]
 execute "hi CursorLine guifg=NONE guibg=" . s:Colors[13]
 execute "hi CursorColumn guifg=". s:Colors[1]  . " guibg=" . s:Colors[13]
 execute "hi Directory guifg="   . s:Colors[10] . " guibg=" . s:Colors[12]
