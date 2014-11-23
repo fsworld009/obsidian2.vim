@@ -1,8 +1,6 @@
 " Vim color file
 " Name: Obsidian2
 " Maintainer: WorldFS
-" Version: 0.6
-" Date: 11.19.2014
 
 set background=dark
 hi clear
@@ -49,7 +47,7 @@ execute "hi Directory guifg="   . s:Colors[10] . " guibg=" . s:Colors[12]
 execute "hi ErrorMsg guifg="    . s:Colors[13] . " guibg=" . s:Colors[7]
 execute "hi FoldColumn guifg="  . s:Colors[13] . " guibg=" . s:Colors[12]
 execute "hi Folded guifg="      . s:Colors[12] . " guibg=" . s:Colors[11]
-execute "hi IncSearch guifg="   . s:Colors[1]  . " guibg=" . s:Colors[12] . " gui=none"
+execute "hi IncSearch guifg="   . s:Colors[8]  . " guibg=" . s:Colors[1] . " gui=none"
 execute "hi LineNr guifg="      . s:Colors[8]  . " guibg=" . s:Colors[12] . " gui=none"
 execute "hi MatchParen guifg="  . s:Colors[12] . " guibg=" . s:Colors[4]  . " gui=bold"
 execute "hi ModeMsg guifg="     . s:Colors[5]  . " guibg=" . s:Colors[12]
@@ -58,7 +56,7 @@ execute "hi NonText guifg="     . s:Colors[1]  . " guibg=" . s:Colors[12]
 execute "hi Pmenu guifg="       . s:Colors[1]  . " guibg=" . s:Colors[8]
 execute "hi PmenuSel guifg="    . s:Colors[13] . " guibg=" . s:Colors[9]
 execute "hi Question guifg="    . s:Colors[0]  . " guibg=" . s:Colors[12]
-execute "hi Search guifg="      . s:Colors[0]  . " guibg=" . s:Colors[12]
+execute "hi Search guifg="      . s:Colors[1]  . " guibg=" . s:Colors[0]
 execute "hi SpecialKey guifg="  . s:Colors[10] . " guibg=" . s:Colors[12]
 execute "hi StatusLine guifg="  . s:Colors[1]  . " guibg=" . s:Colors[9]  . " gui=none"
 execute "hi StatusLineNC guifg=" . s:Colors[1] . " guibg=" . s:Colors[8]  . " gui=none"

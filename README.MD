@@ -6,3 +6,5 @@ Changelog
 ===
  - 11.19.2014
    - Change cursor color to white so that it won't conflict with matching braces or symbols
+ - 11.23.2014
+   - Change highlight bg in Search and IncSearch to light color
