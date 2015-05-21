@@ -69,4 +69,10 @@ execute "hi Visual  guifg="     . s:Colors[1]  . " guibg=" . s:Colors[0]  . " gu
 hi VisualNOS gui=none guibg=black
 execute "hi WarningMsg  guifg=" . s:Colors[5]  . " guibg=" . s:Colors[12]  . " gui=none"
 execute "hi WildMenu  guifg="   . s:Colors[14]  . " guibg=" . s:Colors[5]  . " gui=none"
+hi! DiffAdd      guibg=#009933
+hi! DiffChange   guibg=#0066FF
+hi! DiffDelete guifg=#303030 guibg=#CC0000
+hi! DiffText     guibg=#990000  
+hi! diffAdded guifg=#00FF00
+hi! diffRemoved guifg=#FF0000
 
